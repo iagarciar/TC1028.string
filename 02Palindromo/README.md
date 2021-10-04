@@ -13,39 +13,39 @@ if __name__ == '__main__':
 ```
 
 #### Descripción
-Escribe un programa que reciba un string y un número entero positivo, el programa crea una nueva cadena con la cadena original pero dividida con guiones en cada intervalo del número recibido y la imprime a pantalla. Si recibe un número negativo o 0, deberá imprimir el mensaje: "ERROR!".
+Desarrolla un programa en Python que contenga una función que identifique si una palabra es un palíndromo o no.
+"Un palíndromo (del griego palin dromein, volver a ir atrás), es una palabra, o frase que se lee igual adelante que atrás." (https://es.wikipedia.org/wiki/Pal%C3%ADndromo).
+Los palíndromos en este ejercicios podrán contener, mayusculas, minusculas y espacios.
+
 
 #### Entrada
-Primera linea: un string
-Segunda linea: un número entero
+Un string.
 
 #### Salida
-Un string con los guiones marcados
+Un string, si es o no es palíndromo. 
 
 ***Ejemplo 1:***
 
 Entrada:
 ```
-Paracaidas
-3
+anitalavalatina
 ```
 
 Salida:
 ```
-Par-aca-ida-s
+es un palíndromo
 ```
 
 ***Ejemplo 2:***
 
 Entrada:
 ```
-elefante
-4
+Anita lava la tina
 ```
 
 Salida:
 ```
-elef-ante
+es un palíndromo
 ```
 
 ***Ejemplo 3:***
@@ -53,38 +53,35 @@ elef-ante
 Entrada:
 ```
 cosa
-4
 ```
 
 Salida:
 ```
-cosa
+no es un palíndromo
 ```
 
 ***Ejemplo 4:***
 
 Entrada:
 ```
-azul
-1
+Amor a Roma
 ```
 
 Salida:
 ```
-a-z-u-l
+es un palíndromo
 ```
 
 ***Ejemplo 5:***
 
 Entrada:
 ```
-elote
--2
+filosofo filoso
 ```
 
 Salida:
 ```
-ERROR!
+no es un palíndromo
 ```
 
 #### NOTA IMPORTANTE:

@@ -1,8 +1,8 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Rango de Pares Simple
-Tema Ciclos
+# Separa con Guiones
 
-Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise.py` y que contiene el siguiente código:
+Modifica el programa que se encuentra en la carpeta `src` que se llama
+`exercise.py` y que contiene el siguiente código:
 
 ```python
 def main():
@@ -12,30 +12,91 @@ if __name__ == '__main__':
     main()
 ```
 
-La línea `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
+#### Descripción
+Escribe un programa que reciba un string y un número entero positivo, el programa crea una nueva cadena con la cadena original pero dividida con guiones en cada intervalo del número recibido y la imprime a pantalla. Si recibe un número negativo o 0, deberá imprimir el mensaje: "ERROR!".
 
-Escribe un programa que lea los valores enteros a y b y muestre todos los números pares que se encuentran desde a hasta b. 
-Supón que a < b. 
-Si a y/o b son pares, deben de ser incluidos. 
-El 0 es considerado par.
+#### Entrada
+Primera linea: un string
+Segunda linea: un número entero
 
-**Entrada**  
-Los números enteros positivos a y b. Uno en cada renglón.
+#### Salida
+Un string con los guiones marcados
 
-**Salida**  
-La lista de números pares que están dentro de ese rango (incluyendo los límites). Mostrar un número en cada renglón.
+***Ejemplo 1:***
 
-**Ejemplos de ejecución del programa**  
-````
->>> 3
->>> 12	                        
-4
-6
-8
-10
-12
+Entrada:
+```
+Paracaidas
+3
 ```
 
-**Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
+Salida:
+```
+Par-aca-ida-s
+```
 
-Una vez que termines tu actividad y la hayas probado con `pytest`, subela a tu repositorio en GitHub, con el proceso de commit + push.
+***Ejemplo 2:***
+
+Entrada:
+```
+elefante
+4
+```
+
+Salida:
+```
+elef-ante
+```
+
+***Ejemplo 3:***
+
+Entrada:
+```
+cosa
+4
+```
+
+Salida:
+```
+cosa
+```
+
+***Ejemplo 4:***
+
+Entrada:
+```
+azul
+1
+```
+
+Salida:
+```
+a-z-u-l
+```
+
+***Ejemplo 5:***
+
+Entrada:
+```
+elote
+-2
+```
+
+Salida:
+```
+ERROR!
+```
+
+#### NOTA IMPORTANTE:
+Tu programa NO debe incluir ningún mensaje para pedir los datos y la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
+
+La salida del programa debe de ser exactamente de la siguiente forma:
+
+**Nota:** No te preocupes por esta parte del código
+`if __name__ == '__main__':` por el momento.
+No la vamos a necesitar para este programa, pero es una buena práctica
+incluirla y quedará más claro para que sirve en los siguientes ejercicios.
+
+Una vez que termines tu actividad y la hayas probado con
+`pytest [nombre de la carpeta] -vv`, subela a tu repositorio en GitHub,
+con el proceso de commit + push.
