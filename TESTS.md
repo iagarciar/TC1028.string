@@ -9,19 +9,19 @@
 sudo -H pip3 install pytest
 ```
 
-- ## 01 Cuenta Números
+- ## 01 String Reversa
     ### Run command
     ```
     pytest assignments/01StringReversa 
     ```
 
-- ## 02 Suma Números
+- ## 02 Palíndromo
     ### Run command
     ```
     pytest assignments/02Palindromo
     ```
 
-- ## 03 Suma Hasta N
+- ## 03 Separa con guiones
     ### Run command
     ```
     pytest assignments/03SeparaGuiones
