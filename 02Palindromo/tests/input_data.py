@@ -22,9 +22,9 @@ input_values = [
     ),
     # Test case 4
     (
-    ["ana lava lana"],
+    ["Ana Lava LaNa"],
     ["","es un palíndromo"],
-    ["La comparación de palíndromos es fonética, sugerencia: eliminar espacios antes de comparar"]
+    ["¿Tu programa es correcto cuando la frases contiene mayúsculas y minúsculas?"]
     ),
     # Test case 5
     (
